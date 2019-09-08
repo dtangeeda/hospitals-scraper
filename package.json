@@ -1,0 +1,38 @@
+{
+  "name": "pricepuppet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hospitals Price Web Scraper",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtangeeda/hospitals-scraper.git"
+  },
+  "author": "Honor Logic",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/dtangeeda/hospitals-scraper/issues"
+  },
+  "homepage": "https://github.com/dtangeeda/hospitals-scraper#readme",
+  "keywords": [
+    "scraper",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "csvtojson": "^2.0.8",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "node-fetch": "^2.6.0",
+    "npm": "^6.9.0",
+    "puppeteer": "^1.18.0",
+    "xlsx": "^0.14.3"
+  }
+}
