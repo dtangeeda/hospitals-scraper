@@ -1,9 +1,13 @@
 global.__basedir = __dirname;
 
 const express = require( 'express' );
+const morgan = require('morgan');
+
 const { createRoutes } = require( './router' );
 
 const app = express();
+
+app.use(morgan('combined'));
 
 createRoutes( app );
 console.log("Loading the index.js file for the Scraper Tool");
