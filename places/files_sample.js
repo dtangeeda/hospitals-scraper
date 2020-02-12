@@ -11,11 +11,12 @@ module.exports = {
         schema: {
             // exclude <array> fields to remove from returned objects... nothing to remove in this data set
           // exclude: [],
+          exclude: [ 'number' ],
             // options object for xlsx node module https://docs.sheetjs.com/#json
           options: {
             raw: true,
-            header: [ 'service', 'price' ],
-            range: 1  // don't include header row as data (start at row 2)
+            header: [ 'number', 'service', 'price' ],
+            range: 1  // If value is 1, means it starts at row 2.
           }
         }
       }
