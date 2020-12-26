@@ -1,6 +1,6 @@
 module.exports = {
       // id should match file name
-      id: 'files_sample',
+      id: 'johnshopkins',
       // data is an array of objects
       // if scraping html, url property and value are required
       // if scraping html, evaluator property and method are required
